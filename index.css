@@ -1,0 +1,133 @@
+#index-page{
+  background-image: url(index.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+#about-page{
+  background-image:url(about.jpg);
+  background-size:cover;
+  background-position:center;
+  background-repeat: no-repeat;
+
+}
+
+.back-to-Home a{
+  font-size: 2rem;
+  margin: 10px;
+  text-decoration: none;
+  color:#fff;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.64)
+}
+.btn{
+  border-radius: 10px;
+}
+  .myself-me{
+      margin-left: 10px;
+      font-size: 2rem;
+      color: #16F2E0;
+  }
+
+  .myself-skill{
+    margin-left: 10px;
+    font-size: 2rem;
+    font-weight: inherit;
+    color: #fff;
+  }
+
+
+.nav-main{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  margin:1rem;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.nav-div a{
+  color: orange;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin: 1rem;
+}
+.btn-primary{
+  background: none;
+  padding: 10px;
+  border-color:orange;
+}
+.btn-primary:hover{
+  background-color: orange;
+}
+
+.header-div h1{
+  color: #fff;
+  font-size: 5vw;
+  margin-left: 10px;
+  font-family: 'Lobster', cursive;
+}
+
+.header-div h3{
+  color: cyan;
+  font-family:sans-serif;
+  font-size: 1.5rem;
+  margin-left: 10px;
+  line-height: inherit;
+}
+
+.header-div h2{
+  color: #10F36F;
+  font-size: 1.5rem;
+  margin: 20px;
+  font-family: 'Bitter', serif;
+  padding: 10px;
+  font-weight:bold;
+}
+.important-link{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+    display: inline-flex;
+
+}
+
+.btn-dark{
+  margin: 15px;
+  background-color: rgba(0, 9, 8, 0.55);
+}
+.important-link a{
+
+  color: #42F5E6;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: serif;
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+@media only screen and (max-width:600px) {
+  body{
+    background-image: url(index.jpg);
+    object-fit: cover;
+    height: 100vh;
+    width: 100vw;
+    padding: 0px;
+    margin: 0px;
+  }
+  .header-div h1{
+    font-size: 3rem;
+    font-family: cursive , 'Lobster';
+    margin: 40px;
+    color: cyan;
+
+  }
+  .header-div h2{
+    font-size: 2rem;
+    font-family: cursive,'Lobster';
+    color: #10F36F;
+  }
+
+}
