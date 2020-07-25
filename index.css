@@ -117,17 +117,31 @@
     padding: 0px;
     margin: 0px;
   }
+  .header-div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 0px;
+
+  }
   .header-div h1{
-    font-size: 3rem;
+    font-size: 4rem;
     font-family: cursive , 'Lobster';
-    margin: 40px;
     color: cyan;
 
   }
   .header-div h2{
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: cursive,'Lobster';
     color: #10F36F;
+    margin-bottom: 5rem;
+  }
+  .important-link{
+    margin: 3rem;
+  }
+  .btn{
+    padding: 3rem;
+    margin: 2rem;
   }
 
 }
