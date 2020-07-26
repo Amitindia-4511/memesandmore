@@ -108,7 +108,7 @@
   text-decoration: none;
   text-transform: uppercase;
 }
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:800px) {
   body{
     background-image: url(index.jpg);
     object-fit: cover;
