@@ -5,16 +5,16 @@ body { background-image: url(index.jpg);
   height: 100vh;
 }
 .header-div{
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 2rem;
+  margin: 2rem;
 
 }
 .header-div h1{
   font-size: 4rem;
   font-family: cursive , 'Lobster';
   color: cyan;
-  margin-top:3rem;
   /* margin: 3rem; */
 
 }
@@ -22,7 +22,6 @@ body { background-image: url(index.jpg);
   font-size: 3rem;
   font-family: cursive,'Lobster';
   color: #10F36F;
-  margin-top:7rem;
   /* margin: 5rem; */
 }
 .important-link{
