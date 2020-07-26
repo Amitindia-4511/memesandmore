@@ -1,30 +1,33 @@
 body{
   background-color: rgba(0, 0, 0,0.7);
 }
+
+.nav-main a{
+  font-size: 1.5rem;
+  font-family: cursive,'Lobster';
+  border-radius: 40px;
+}
+.memes-main h1{
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+  font-size: 3rem;
+  margin: 1rem;
+  color:#fff;
+
+}
 .memes-img{
-  display: grid;
-  grid-template-columns: repeat(auto,minmax(400px,3fr));
-  grid-gap: 3rem;
-  margin: 3rem;
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
   display:flex;
   flex-flow: row wrap;
   justify-content: center;
 
 }
+
 .memes-img img{
-  width: 35vw;
+  width: 90vw;
   height: auto;
-
-
 }
-
-.memes-main{
-  font-size:2rem;
-  color: #fff;
-  font-weight: bold;
-  font-family: 'Lobster', cursive;
-}
-
 .btn{
   border-radius: 10px;
   width: 15vw;;
@@ -53,46 +56,99 @@ nav button{
 }
 nav button:hover{
   background-color: green;
+}.btn{
+  border-radius: 10px;
+  width: 15vw;;
+  font-size: 3vh;
+  margin: 3rem;
+  justify-content: space-between;
 }
-img{
-  width: 400px;
-  height: 400px;
+.nav-main{
+  background-color: #000000;
+  display: inline-block;
+  padding: 15px;
+  margin-left: 10%;
 }
-
-.header-main-bestwords{
-  margin: 2rem;
-  font-size: 2rem;
-  font-family: cursive;
+.nav-main a{
+  text-decoration: none;
+  color: #fff;
+  padding: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  /* background-color: #00000; */
 }
+nav button{
+  border-radius: 10px;
+  margin: 3rem;
+}
+nav button:hover{
+  background-color: green;
+}
+/*
+@media only screen and (min-width:768px) {
+  .memes-img{
+    display: grid;
+    grid-template-columns: repeat(auto,minmax(400px,3fr));
+    grid-gap: 3rem;
+    margin: 3rem;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
 
-@media only screen and (max-width:800px) {
+  }
+  .memes-img img{
+    width: 35vw;
+    height: auto;
 
-  body{
-    background-color: rgba(0, 0, 0,0.7);
+
+  }
+
+  .memes-main{
+    font-size:2rem;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+  }
+
+  .btn{
+    border-radius: 10px;
+    width: 15vw;;
+    font-size: 3vh;
+    margin: 3rem;
+    justify-content: space-between;
+  }
+  .nav-main{
+    background-color: #000000;
+    display: inline-block;
+    padding: 15px;
+    margin-left: 10%;
   }
   .nav-main a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
     font-size: 1.5rem;
-    font-family: cursive,'Lobster';
-    border-radius: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #00000; */
+  /* }
+  nav button{
+    border-radius: 10px;
+    margin: 3rem;
   }
-  .memes-main h1{
-    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
-    font-size: 3rem;
-    margin: 1rem;
-    color:#fff;
-
+  nav button:hover{
+    background-color: green;
   }
-  .memes-img{
-    display:grid;
-    grid-template-columns: 1fr;
-    grid-gap: 2rem;
-    /* justify-content: center;
-    justify-content: space-around; */
-
+  img{
+    width: 400px;
+    height: 400px;
   }
 
-  .memes-img img{
-    width: 90vw;
-    height: auto;
+  .header-main-bestwords{
+    margin: 2rem;
+    font-size: 2rem;
+    font-family: cursive;
   }
-}
+
+} */
