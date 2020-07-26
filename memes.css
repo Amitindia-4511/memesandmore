@@ -17,7 +17,7 @@ body{
 .memes-img{
   display:grid;
   grid-template-columns: 1fr;
-  grid-gap: 2rem;
+  grid-gap: 4rem;
   display:flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -85,8 +85,8 @@ nav button{
 nav button:hover{
   background-color: green;
 }
-/*
-@media only screen and (min-width:768px) {
+
+@media only screen and (min-width:1000px) {
   .memes-img{
     display: grid;
     grid-template-columns: repeat(auto,minmax(400px,3fr));
@@ -131,8 +131,8 @@ nav button:hover{
     font-size: 1.5rem;
     font-weight: bold;
     text-transform: uppercase;
-    background-color: #00000; */
-  /* }
+    background-color: #00000;
+  }
   nav button{
     border-radius: 10px;
     margin: 3rem;
@@ -151,4 +151,4 @@ nav button:hover{
     font-family: cursive;
   }
 
-} */
+}
