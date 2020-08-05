@@ -10,7 +10,6 @@ body{
   font-size: 16px;
   line-height: 1.7;
   color: #777;
-  background-color: #ffd;
 }
 
 @media only screen and (max-width:1920px) {
@@ -220,13 +219,13 @@ body{
 
 @media only screen and (max-width:480px) {
   body{
-    background-color: orange;
+    background-color: #e0cff9;
   }
 
   .btn{
-    background-color: orange;
+    background-color: #00F17D;
     border-radius: 1rem;
-    border-color: orange;
+    border-color: #00F17D;
     padding: 1rem;
     margin: 1.5rem;
 
@@ -236,13 +235,13 @@ body{
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: 400;
-    color: #fff;
+    color: #000;
   }
 
   .header h1{
     display: flex;
     justify-content: center;
-    font-size:3rem;
+    font-size:2.5rem;
     font-weight: bold;
     margin: 1.5rem;
     padding: 1rem;
@@ -256,12 +255,11 @@ body{
     flex-flow: row wrap;
     justify-content: center;
     justify-content: space-around;
-    background-color: orange;
   }
 
   .video-main{
-  width: 50vw;
-  height: 96vh;
+  width: 100vw;
+  height: 100vh;
   margin-top:1rem;
 
   }
