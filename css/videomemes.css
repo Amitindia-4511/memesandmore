@@ -18,6 +18,21 @@ body{
   body{
     background-color: #ffd;
   }
+  .btn{
+    background-color: orange;
+    border-radius: 1rem;
+    border-color: orange;
+    padding: 1.5rem;
+    margin: 1.5rem;
+
+  }
+
+  .btn a{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #fff;
+  }
 
   .header h1{
     display: flex;
@@ -35,12 +50,13 @@ body{
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  justify-content: space-around;
 }
 
 .video-main{
-  width: 40vw;
+  width: 45vw;
   height: 96vh;
-  margin-top:2rem;
+  margin-top:5rem;
 
 }
 
@@ -49,6 +65,22 @@ body{
 @media only screen and (max-width:1200px) {
   body{
     background-color: #ffe;
+  }
+
+  .btn{
+    background-color: orange;
+    border-radius: 1rem;
+    border-color: orange;
+    padding: 1.5rem;
+    margin: 1.5rem;
+
+  }
+
+  .btn a{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #fff;
   }
 
   .header h1{
@@ -75,7 +107,7 @@ body{
 .video-main{
   width: 48vw;
   height: 96vh;
-  margin-top:2rem;
+  margin-top:3rem;
 
 }
 
@@ -87,6 +119,22 @@ body{
 @media only screen and (max-width:1023px) {
   body{
     background-color: #ffb;
+  }
+
+  .btn{
+    background-color: orange;
+    border-radius: 1rem;
+    border-color: orange;
+    padding: 1.5rem;
+    margin: 1.5rem;
+
+  }
+
+  .btn a{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #fff;
   }
 
   .header h1{
@@ -123,6 +171,22 @@ body{
   body{
     background-color: #ffc;
   }
+  .btn{
+    background-color: orange;
+    border-radius: 1rem;
+    border-color: orange;
+    padding: 1.5rem;
+    margin: 1.5rem;
+
+  }
+
+  .btn a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #fff;
+  }
+
 
   .header h1{
     display: flex;
@@ -145,7 +209,7 @@ body{
   }
 
   .video-main{
-  width: 48vw;
+  width: 50vw;
   height: 96vh;
   margin-top:1rem;
 
@@ -158,6 +222,23 @@ body{
   body{
     background-color: orange;
   }
+
+  .btn{
+    background-color: orange;
+    border-radius: 1rem;
+    border-color: orange;
+    padding: 1rem;
+    margin: 1.5rem;
+
+  }
+
+  .btn a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #fff;
+  }
+
   .header h1{
     display: flex;
     justify-content: center;
@@ -179,7 +260,7 @@ body{
   }
 
   .video-main{
-  width: 48vw;
+  width: 50vw;
   height: 96vh;
   margin-top:1rem;
 

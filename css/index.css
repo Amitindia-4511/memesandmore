@@ -13,8 +13,8 @@ body{
 
 }
 .header-main{
-  height: 98vh;
-  background-image:linear-gradient(to right bottom, rgba(86, 88, 246, .5), rgba(40, 160, 80, 0.5)) , url(index.jpg);
+  height: 100vh;
+  background-image:linear-gradient(to right bottom, rgba(86, 88, 246, .5), rgba(40, 160, 80, 0.5)) , url(../image/index.jpg);
   background-size: cover;
   background-position: center;
   /* clip-path: polygon(0 0,100% 0,100% 70%,0 70%); */
@@ -49,12 +49,22 @@ body{
 
 .main-link{
   position: absolute;
-  top: 70%;
+  top: 50%;
   left: 3%;
   display: inline-block;
   float: left;
 }
 
+/* .btn{
+  font-size: 3rem;
+  font-weight: 400;
+  color: #fff;
+  background-color: orange;
+  padding: 2rem 5rem;
+  text-decoration: none;
+  margin: 5rem;
+  border-radius: 3rem;
+} */
 .btn{
   font-size: 3rem;
   font-weight: 400;
@@ -64,8 +74,8 @@ body{
   text-decoration: none;
   margin: 5rem;
   border-radius: 3rem;
+  display: block;
 }
-
 .btn:hover{
   background-color: #fff;
   color: orange;
