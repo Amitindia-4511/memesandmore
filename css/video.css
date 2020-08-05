@@ -88,7 +88,7 @@ animation-duration: 2s;
   padding: 15px 40px;
   display: inline-block;
   border-radius: 40px;
-  margin-left: 2rem;
+  margin: 2rem 1rem;
 }
 .btn-white{
   background-color: #fff;
