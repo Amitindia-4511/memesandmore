@@ -1,0 +1,82 @@
+body{
+  background-color: rgba(0, 0, 0,0.7);
+}
+.container{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  flex-flow: row wrap;
+
+}
+img{
+  width:500px;
+  height: 380px;
+  margin: 15px;
+}
+.main-page-header{
+  display: inline-block;
+  margin: 10px 5px;
+
+}
+h1{
+  font-family:cursive;
+  font-family: 'Lobster', cursive;
+  font-size: 5rem;
+  color: rgb(114, 237, 224);
+  border-bottom: 3px solid rgba(114, 237, 224,0.7);
+  width: 20rem;
+}
+
+.nav-mainpage{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin:20px 30px auto auto;
+}
+.btn-primary{
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+@media only screen and (min-width:900px) {
+  .container{
+    display: grid;
+    display: inline-grid;
+    grid-gap: 2rem;
+    display: flex;
+    flex-flow: row wrap;
+  }
+   img{
+     clear: both;
+     width: 750px;
+     height: 580px;
+  }
+  .main-page-header h1{
+    color:rgb(114, 237, 224);
+  }
+}
+
+@media only screen and (max-width:600px){
+
+  body{
+    background: background-color: rgba(0, 0, 0,0.7);
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+
+  }
+ img{
+    width:300px;
+    height: 250px;
+    margin: 15px;
+  }
+  .main-page-header h1{
+    color:rgb(114, 237, 224);
+  }
+
+
+}

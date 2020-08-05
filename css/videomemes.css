@@ -1,0 +1,187 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Lato',sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #777;
+  background-color: #ffd;
+}
+
+@media only screen and (max-width:1920px) {
+
+  body{
+    background-color: #ffd;
+  }
+
+  .header h1{
+    display: flex;
+    justify-content: center;
+    font-size:5rem;
+    font-weight: bold;
+    margin: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    border:3px solid #000;
+  }
+
+
+.video{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.video-main{
+  width: 40vw;
+  height: 96vh;
+  margin-top:2rem;
+
+}
+
+}
+
+@media only screen and (max-width:1200px) {
+  body{
+    background-color: #ffe;
+  }
+
+  .header h1{
+    display: flex;
+    justify-content: center;
+    font-size:5rem;
+    font-weight: bold;
+    margin: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    border:3px solid #000;
+  }
+
+
+.video{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  justify-content: space-around;
+
+
+}
+
+.video-main{
+  width: 48vw;
+  height: 96vh;
+  margin-top:2rem;
+
+}
+
+
+}
+
+
+
+@media only screen and (max-width:1023px) {
+  body{
+    background-color: #ffb;
+  }
+
+  .header h1{
+    display: flex;
+    justify-content: center;
+    font-size:3rem;
+    font-weight: bold;
+    margin: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    border:3px solid #000;
+  }
+
+
+  .video{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-content: space-around;
+
+  }
+
+  .video-main{
+  width: 48vw;
+  height: 96vh;
+  margin-top:1rem;
+
+  }
+}
+
+
+
+@media only screen and (max-width:767px) {
+  body{
+    background-color: #ffc;
+  }
+
+  .header h1{
+    display: flex;
+    justify-content: center;
+    font-size:3rem;
+    font-weight: bold;
+    margin: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    border:3px solid #000;
+  }
+
+
+  .video{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-content: space-around;
+
+  }
+
+  .video-main{
+  width: 48vw;
+  height: 96vh;
+  margin-top:1rem;
+
+  }
+}
+
+
+
+@media only screen and (max-width:480px) {
+  body{
+    background-color: orange;
+  }
+  .header h1{
+    display: flex;
+    justify-content: center;
+    font-size:3rem;
+    font-weight: bold;
+    margin: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    border:3px solid #000;
+  }
+
+
+  .video{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: orange;
+  }
+
+  .video-main{
+  width: 48vw;
+  height: 96vh;
+  margin-top:1rem;
+
+  }
+}
